@@ -1,0 +1,41 @@
+ Concepts Covered
+
+- Interfacing 16x2 LCD in 8-bit mode
+- Controlling LCD using RS, RW, EN control lines
+- Sending commands and data to LCD
+- Delays for proper LCD timing
+
+ Circuit Connections
+
+| LCD Pin | Description     | 8051 Pin     |
+|---------|-----------------|--------------|
+| RS      | Register Select | P3.0         |
+| RW      | Read/Write      | P3.1         |
+| EN      | Enable          | P3.2         |
+| D0–D7   | Data Lines      | P2.0–P2.7    |
+
+Power:  
+- VSS → GND  
+- VDD → +5V  
+- VEE → Potentiometer for contrast
+
+How It Works
+
+- `lcd_init()` initializes the LCD.
+- `lcd_cmd()` sends a command to the LCD (clear screen, cursor settings, etc.).
+- `lcd_data()` writes a character to the display.
+- `lcd_string()` prints a full string.
+- A simple delay loop provides timing.
+
+
+ Tools Used
+
+- Keil uVision (C Programming)
+- Proteus (Simulation)
+- 8051 Microcontroller (AT89C51)
+- Embedded C
+
+  Output
+
+On running the code, the LCD should display:
+
