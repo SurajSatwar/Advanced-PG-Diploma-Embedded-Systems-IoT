@@ -1,0 +1,17 @@
+# LPC2148 DAC Sawtooth Wave Generator
+
+This project demonstrates generating a **sawtooth waveform** using the DAC of the **LPC2148 ARM7 microcontroller**.
+
+##  Hardware Connections
+- **DAC0 Output Pin** → P0.25
+- Connect this pin to an oscilloscope or DAC buffer circuit to observe the waveform.
+
+## Code Highlights
+- Configures **P0.25** as DAC output.
+- Increments DAC value from 0 to 1023 (10-bit resolution).
+- Generates a continuous **sawtooth wave**.
+
+##  Usage
+1. Load code into LPC2148 using Keil/Flash Magic.
+2. Connect an oscilloscope probe to **P0.25**.
+3. Observe the sawtooth waveform (0V – 3.3V).
