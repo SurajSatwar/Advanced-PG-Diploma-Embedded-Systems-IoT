@@ -31,14 +31,5 @@ In a “LED Blink with Timer” project:
 
 - An LED connected to a GPIO pin will toggle every 500 ms using Timer interrupt.
 
-## Contribution & Extensions  
-You or future contributors can add more 8051-based projects—for example:  
-- Motor control (stepper, servo)  
-- Wireless communication   
-- Display modules (LCD)  
-- IoT bridging (UART ↔ ESP8266 / ESP32 as WiFi / MQTT link)
-
-Make sure to add a `README.md` inside each new project folder describing hardware connections, configuration, and usage.
-
 ## License  
 This repository follows the licensing terms as described in the root `LICENSE` file of the main project. Unless otherwise stated, use is on an “AS-IS” basis.
